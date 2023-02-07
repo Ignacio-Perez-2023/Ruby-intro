@@ -8,4 +8,26 @@
 # end
 
 # Loop through tacos
-# tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+
+# ***Old way to code this***
+#index = 0
+#loop do
+ #   if index == tacos.count
+ #       break
+ #   end
+ #   taco = tacos[index]
+
+#  puts "#{taco}"
+#index = index + 1
+#end
+
+# ***New way to write loops***
+for taco in tacos
+    puts "#{taco}"
+end
+
+# "taco" is just a label for the items you have inside the array "tacos"
+# There is no longer need to add the loop, index nor if
+
+puts "done"

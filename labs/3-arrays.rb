@@ -12,6 +12,35 @@
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
 
+
+#CODE - IP
+
+#1 - Create 2 lists
+
+Ignacio_list = ["milk","eggs","bacon","apples"]
+Friend_list = ["beer","cookies","apples"]
+
+#2 - Combine lists
+Consolidated_list = Ignacio_list + Friend_list
+
+#3 - Sort list
+
+Sorted_list = Consolidated_list.sort
+
+#4 - Remove duplicates from list
+
+deduplicated_list = Sorted_list.uniq
+
+# I could have used both commands, the sort and uniq in 1 line only
+
+#5 - Output
+puts "Buy " + deduplicated_list[0]
+puts "Buy " + deduplicated_list[1]
+puts "Buy " + deduplicated_list[2]
+puts "Buy " + deduplicated_list[3]
+puts "Buy " + deduplicated_list[4]
+puts "Buy " + deduplicated_list[5]
+
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
