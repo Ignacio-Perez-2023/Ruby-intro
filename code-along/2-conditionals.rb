@@ -45,14 +45,14 @@ else
     puts "go away!"
 end 
 
-# Elsif Conditional Logic
+# Elsif Conditional Logic (when using elsif, you can use as many as you want, but in the final use just "else" - good practice)
 hote_team_score = 101
 away_team_score = 101
 if hote_team_score > away_team_score
     puts "winner!!"
 elsif hote_team_score < away_team_score
     puts "loser :("
-else 
+elsif 
     puts "tied meh.."
 end
 
